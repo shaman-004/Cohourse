@@ -22,19 +22,30 @@ export default function Home() {
           className="mt-8"
         /> */}
       </section>
-      
+      </main>
 
       
       
 
-      <footer className="flex justify-center w-full mt-8">
-        <p className="text-sm text-center">
-          &copy; {new Date().getFullYear()} Course Web. All rights reserved.
-        </p>
-      </footer>
+<footer className="flex  w-full  p-6 mt-[10px] bg-black/20 justify-end ">
+  <p className="text-sm text-center">
+    &copy; {new Date().getFullYear()} Course Web. All rights reserved.
+  </p>
+  <ul className="list-none flex flex-col  md:space-y-4 lg:space-y-6 ">
+    <li>
+      <a href="#" className="text-sm text-gray-500 hover:underline">Privacy Policy</a>
+    </li>
+    <li>
+      <a href="#" className="text-sm text-gray-500 hover:underline">Terms of Service</a>
+    </li>
+    <li>
+      <a href="#" className="text-sm text-gray-500 hover:underline">Contact Us</a>
+    </li>
+  </ul>
+</footer>
 
       
-    </main>
+    
   </>
   );
 }
