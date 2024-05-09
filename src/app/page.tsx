@@ -23,11 +23,12 @@ export default function Home() {
         /> */}
       </section>
       </main>
+      
 
       
       
 
-<footer className="flex  w-full  p-6 mt-[10px] bg-black/20 justify-end ">
+{/* <footer id="footer" className="flex  w-full  p-6 mt-[10px] bg-black/20 justify-end ">
   <p className="text-sm text-center">
     &copy; {new Date().getFullYear()} Course Web. All rights reserved.
   </p>
@@ -42,7 +43,7 @@ export default function Home() {
       <a href="#" className="text-sm text-gray-500 hover:underline">Contact Us</a>
     </li>
   </ul>
-</footer>
+</footer> */}
 
       
     
