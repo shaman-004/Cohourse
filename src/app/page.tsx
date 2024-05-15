@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import Navbar from "./Components/Navbar";
 
@@ -11,11 +12,15 @@ export default function Home() {
         <h1 className="text-6xl font-bold text-center">
           Welcome to <span className="text-red-600">Course Web</span>
         </h1>
-        <p className="text-lg text-center mt-4">
-          A platform for students to access course materials
+        <p className="text-lg text-center mt-4 w-full  ">
+          A platform for students to access course materials and
+           with inbuilt Roadmap
         </p>
-        <button className="bg-red-600 text-white font-bold px-6 py-2 rounded-full mt-8">
+        <button  className="bg-red-600 text-white font-bold px-6 py-2 rounded-full mt-8">
+          <a href="#course">
           Browse Courses &rarr;
+          </a>
+         
         </button>
         {/* <Image
           src="next.svg"
@@ -25,7 +30,7 @@ export default function Home() {
           className="mt-8"
         /> */}
       </section>
-      <section className="mt-[150px]">
+      <section id="course" className="mt-[150px]">
         <h2 className="text-4xl font-bold text-center mt-24">Popular Courses</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           <div className="bg-white shadow-lg rounded-lg p-6">
