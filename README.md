@@ -1,4 +1,4 @@
-
+Welcome to Cohourse! Your one-stop to every course and roadmaps😊
 
 ## Getting Started
 
